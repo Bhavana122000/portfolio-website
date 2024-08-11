@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+html{
+    /* to scroll smooth when clicked on nav */
+    scroll-behavior: smooth;
+}
+
+header{
+    text-align:center;
+    padding: 1rem;
+    color: #fff;
+    background-color: #333;
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#skills ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+#skills li{
+    margin: 5px 0;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #333, #ccc);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#skills li i {
+    margin-right: 10px;
+    color: #f16529;
+}
+
+#skills li i.fa-css3-alt{
+    color: #2965f1
+}
+
+#skills li i.fa-js{
+    color: #f7df1e;
+}
+
+#skills li i.fa-jsfiddle{
+    color: #0769ad;
+}
+
+#skills li i.fa-java{
+    color:#007396;
+}
+
+#skills li i.fa-snowflake{
+    color:#ed2024;
+}
+
+#skills li i.fa-database{
+    color: #336791;
+}
+
+#skills li i.fa-bootstrap{
+    color: #7952b3;
+}
+
+#skills li i.fa-vuejs{
+    color: #42b883;
+}
+
+#skills li i.fa-file-excel{
+    color: #217346;
+}
+
+#skills li i.fa-vial{
+    color: #d9534f;
+}
+
+#skills li i.fa-bug{
+    color: #ff5733;
+}
+
+#skills li i.fa-puzzle-piece{
+    color: #17a2b8;
+}
+
+/* #contact {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+} */
+
+#contact ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li{
+    margin-bottom: 1rem;
+}
+
+#contact_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#contact_form input,
+#contact_form textarea{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact_form button{
+    padding: 0.75rem;
+    background-color: #333;
+    color:#fff;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact_form button:hover{
+    background-color:#555 ;
+}
+
+#projects{
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.project{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.project h3{
+    margin-top: 0;
+    color: #333;
+}
+
+.project p{
+    margin: 0.5rem 0;
+}
+
+.project a{
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.project a:hover{
+    text-decoration: underline;
+}
