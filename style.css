@@ -163,10 +163,11 @@ section{
     margin: 0.5rem 0;
 }
 
-.project a{
+.project a, .view-more a{
     color: #1a73e8;
     text-decoration: none;
 }
+
 
 .project a:hover{
     text-decoration: underline;
