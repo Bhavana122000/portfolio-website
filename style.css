@@ -169,6 +169,6 @@ section{
 }
 
 
-.project a:hover{
+.project a:hover, .view-more a:hover{
     text-decoration: underline;
 }
