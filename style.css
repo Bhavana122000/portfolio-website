@@ -172,3 +172,49 @@ section{
 .project a:hover, .view-more a:hover{
     text-decoration: underline;
 }
+
+
+
+/* hamburger design */
+.hamburger{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1000;
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.side-nav a{
+    padding: 10px 15px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    background-color: #575757;
+}
+
+.side-nav.open{
+    width: 250px; 
+}
+
+body.nav-open {
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+}
+/* hamburder styling ends */
