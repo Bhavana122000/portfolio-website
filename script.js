@@ -35,3 +35,21 @@ document.getElementById("contact_form").addEventListener("submit", function(even
         alert("Error:" + error.message);
     });
 })
+
+
+// hambuerger logic
+document.querySelector('.hamburger').addEventListener('click', function(){
+    //toggle the side navigation
+    document.getElementById('side-nav').classList.toggle('open');
+    //toggle the body class push the content aside
+    document.body.classList.toggle('nav-open');
+
+    //close the side navigation on outside click 
+    window.addEventListener('click', function(event){
+        const sideNav = document.getElementById('side-nav'); 
+        if(!sideNav.contains(event.target) && !event.target.matches('.hamburger')){
+            sideNav.classList.remove('open'); 
+            document.body.classList.remove('nav-open');
+        }
+    });
+});
