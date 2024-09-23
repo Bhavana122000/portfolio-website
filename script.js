@@ -42,7 +42,7 @@ document.querySelector('.hamburger').addEventListener('click', function(){
     //toggle the side navigation
     document.getElementById('side-nav').classList.toggle('open');
     //toggle the body class push the content aside
-    document.body.classList.toggle('nav-open');
+    //document.body.classList.toggle('nav-open');
 
     //close the side navigation on outside click 
     window.addEventListener('click', function(event){
