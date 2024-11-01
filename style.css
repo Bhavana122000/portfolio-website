@@ -97,6 +97,14 @@ section{
     color: #17a2b8;
 }
 
+#skills li i.fa-desktop{
+    color: #2f4f4f;
+}
+
+#skills li i.fa-git-alt{
+    color: #f05032;
+}
+
 /* #contact {
     margin: 1rem;
     padding: 2rem;
